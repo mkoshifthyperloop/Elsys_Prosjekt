@@ -1,0 +1,13 @@
+Added Component: Designator=U1(PMW3389)
+Added Pin To Net: NetName=NetC7_2 Pin=U1-3
+Added Pin To Net: NetName=1V9 Pin=U1-4
+Added Pin To Net: NetName=3V3 Pin=U1-5
+Added Pin To Net: NetName=NRESET Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=MOTION Pin=U1-9
+Added Pin To Net: NetName=SCLK Pin=U1-10
+Added Pin To Net: NetName=MOSI Pin=U1-11
+Added Pin To Net: NetName=MISO Pin=U1-12
+Added Pin To Net: NetName=NCS Pin=U1-13
+Added Pin To Net: NetName=NetR2_1 Pin=U1-15
+Added Member To Class: ClassName=main_Rev1 Member=Component U1 PMW3389
