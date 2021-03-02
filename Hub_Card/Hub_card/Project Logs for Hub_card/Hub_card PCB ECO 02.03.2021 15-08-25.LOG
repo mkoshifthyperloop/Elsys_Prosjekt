@@ -1,0 +1,7 @@
+Added Component: Designator=U?(TLV70019DDCT)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://no.farnell.com/texas-instruments/tlv70019ddct/ldo-reg-0-175vdo-0-2a-1-9v-5sot23/dp/3007766RL?st=regulator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-30508-1-ND"; VariantName = "[No Variations]"
+Added Class: Name=main
+Added Room: Name=main
