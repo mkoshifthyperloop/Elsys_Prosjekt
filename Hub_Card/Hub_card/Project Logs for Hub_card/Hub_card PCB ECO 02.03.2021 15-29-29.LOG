@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=main Member=U1
+Added Component: Designator=U?(ESP32)
+Added Member To Class: ClassName=main Member=Component U? ESP32-DEVKITC-32D
