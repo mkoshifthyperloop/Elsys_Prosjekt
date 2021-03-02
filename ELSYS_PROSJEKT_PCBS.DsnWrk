@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=PMW3329_Connector\PMW3329_Connector.PrjPcb
+[Project2]
+ProjectPath=PMW3389_Card\PMW3389_Card.PrjPcb
+[Project3]
+ProjectPath=Hub_Card\Hub_card\Hub_card.PrjPcb

@@ -1,0 +1,6 @@
+Added Component: Designator=R1(R0603)
+Add component (AddParameter): Name = "Parameter 1"; Value = "R 0603 10K 0.1W 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R1-1
+Added Pin To Net: NetName=NetP1_2 Pin=R1-2
+Added Member To Class: ClassName=main_Rev1 Member=Component R1 CPF-A-0603B100KE1

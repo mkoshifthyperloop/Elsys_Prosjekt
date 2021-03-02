@@ -1,0 +1,14 @@
+Change Component Description : Designator=C5 Old Description=C0603 New Description=Decoupling LED_P.
+Change Component Description : Designator=C6 Old Description=C0603 New Description=Decoupling LED_P.
+Change Component Description : Designator=R1 Old Description=R0603 New Description=Current limiter LED_P
+Added Component: Designator=J?(M403020546)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn.harwin.com/pdfs/M40-302.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Harwin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "M40-3020546"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=main_Rev1 Member=Component J? M40-3020546
+Added Room: Name=main_Rev1
