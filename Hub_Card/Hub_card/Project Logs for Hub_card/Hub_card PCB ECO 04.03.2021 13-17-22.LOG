@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Added Component: Designator=U1(Adafruit BN055)
+Added Member To Class: ClassName=main Member=Component U1 Adafruit BN055
