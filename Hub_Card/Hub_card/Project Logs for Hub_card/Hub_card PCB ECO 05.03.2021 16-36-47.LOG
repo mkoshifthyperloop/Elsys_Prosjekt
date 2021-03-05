@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=H1 NewDesignator=H2
+Change Component Designator: OldDesignator=H2 NewDesignator=H1
+Change Component Designator: OldDesignator=H? NewDesignator=H39
+Added Pin To Net: NetName=NRESET Pin=H35-1
+Added Pin To Net: NetName=NRESET Pin=U2-17
+Change Net Name : Old Net Name=NetH1_1 New Net Name=NetH2_1

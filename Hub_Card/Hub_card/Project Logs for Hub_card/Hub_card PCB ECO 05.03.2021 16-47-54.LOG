@@ -1,0 +1,22 @@
+Change Component Designator: OldDesignator=H? NewDesignator=H39
+Change Component Designator: OldDesignator=H? NewDesignator=H40
+Change Component Designator: OldDesignator=H? NewDesignator=H41
+Change Component Designator: OldDesignator=H? NewDesignator=H42
+Change Component Designator: OldDesignator=H? NewDesignator=H43
+Change Net Name : Old Net Name=NetH?_1 New Net Name=NetH42_1
+Added Pin To Net: NetName=NetH39_1 Pin=H39-1
+Added Pin To Net: NetName=NetH39_1 Pin=U1-10
+Added Net: Name=NetH39_1
+Added Pin To Net: NetName=NetH40_1 Pin=H40-1
+Added Pin To Net: NetName=NetH40_1 Pin=U1-9
+Added Net: Name=NetH40_1
+Added Pin To Net: NetName=NetH41_1 Pin=H41-1
+Added Pin To Net: NetName=NetH41_1 Pin=U1-2
+Added Net: Name=NetH41_1
+Added Pin To Net: NetName=NetH43_1 Pin=H43-1
+Added Pin To Net: NetName=NetH43_1 Pin=U1-7
+Added Net: Name=NetH43_1
+Added Member To Class: ClassName=main Member=Component H39 Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H40 Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H41 Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H43 Via prove-point/connection

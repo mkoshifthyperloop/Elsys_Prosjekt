@@ -1,0 +1,14 @@
+Added Component: Designator=H?(Hole)
+Added Component: Designator=H?(Hole)
+Added Component: Designator=H?(Hole)
+Added Component: Designator=H?(Hole)
+Added Component: Designator=H?(Hole)
+Added Pin To Net: NetName=NetH?_1 Pin=H?-1
+Added Pin To Net: NetName=NetH?_1 Pin=U1-8
+Added Net: Name=NetH?_1
+Added Member To Class: ClassName=main Member=Component H1 Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H? Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H? Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H? Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H? Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H? Via prove-point/connection

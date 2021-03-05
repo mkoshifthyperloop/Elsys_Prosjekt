@@ -1,0 +1,39 @@
+Added Component: Designator=H?(Hole)
+Added Pin To Net: NetName=NetH4_1 Pin=U1-4
+Added Pin To Net: NetName=NetH10_1 Pin=U1-5
+Added Pin To Net: NetName=NetH14_1 Pin=U1-6
+Added Pin To Net: NetName=1V9 Pin=U3-5
+Added Net: Name=1V9
+Added Pin To Net: NetName=3v3 Pin=H3-1
+Added Pin To Net: NetName=3v3 Pin=U1-1
+Added Pin To Net: NetName=3v3 Pin=U2-1
+Added Pin To Net: NetName=3v3 Pin=U3-1
+Added Pin To Net: NetName=3v3 Pin=U3-3
+Added Net: Name=3v3
+Added Pin To Net: NetName=GND Pin=H2-1
+Added Pin To Net: NetName=GND Pin=H12-1
+Added Pin To Net: NetName=GND Pin=H29-1
+Added Pin To Net: NetName=GND Pin=H?-1
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U2-14
+Added Pin To Net: NetName=GND Pin=U2-20
+Added Pin To Net: NetName=GND Pin=U2-26
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Net: Name=GND
+Added Pin To Net: NetName=MISO Pin=H27-1
+Added Pin To Net: NetName=MISO Pin=U2-13
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=H31-1
+Added Pin To Net: NetName=MOSI Pin=U2-15
+Added Net: Name=MOSI
+Added Pin To Net: NetName=MOTION Pin=H33-1
+Added Pin To Net: NetName=MOTION Pin=U2-16
+Added Net: Name=MOTION
+Added Pin To Net: NetName=NCS Pin=H23-1
+Added Pin To Net: NetName=NCS Pin=U2-11
+Added Net: Name=NCS
+Added Net: Name=NRESET
+Added Pin To Net: NetName=SCLK Pin=H25-1
+Added Pin To Net: NetName=SCLK Pin=U2-12
+Added Net: Name=SCLK
+Added Member To Class: ClassName=main Member=Component H? Via prove-point/connection
