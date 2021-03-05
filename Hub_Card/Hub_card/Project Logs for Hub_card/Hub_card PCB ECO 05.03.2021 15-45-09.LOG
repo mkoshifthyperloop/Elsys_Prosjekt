@@ -1,0 +1,4 @@
+Added Component: Designator=H1(Hole)
+Added Member To Class: ClassName=main Member=Component H1 Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component U2 ESP32-DEVKITC-32D
+Added Member To Class: ClassName=main Member=Component U3 TLV70019DDCT
