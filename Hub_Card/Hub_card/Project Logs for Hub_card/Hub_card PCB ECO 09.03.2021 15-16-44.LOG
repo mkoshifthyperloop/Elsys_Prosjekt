@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=1V9 Pin=C1-2
+Removed Pin From Net: NetName=3v3 Pin=C2-2
+Change Component Comment : Designator=C1 Old Comment=02016D104KAT2A New Comment=08053C105KAT2A
+Change Component Comment : Designator=C2 Old Comment=02016D104KAT2A New Comment=08053C105KAT2A
+Added Component: Designator=H44(Hole)
+Added Component: Designator=H45(Hole)
+Added Component: Designator=H46(Hole)
+Added Pin To Net: NetName=3v3 Pin=C1-2
+Added Pin To Net: NetName=1V9 Pin=C2-2
+Added Pin To Net: NetName=NetH4_1 Pin=H44-1
+Added Pin To Net: NetName=NetH10_1 Pin=H45-1
+Added Pin To Net: NetName=NetH14_1 Pin=H46-1
+Added Member To Class: ClassName=main Member=Component H44 Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H45 Via prove-point/connection
+Added Member To Class: ClassName=main Member=Component H46 Via prove-point/connection
+Added Room: Name=main
