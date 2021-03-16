@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PMW3389_Rev1.PcbDoc]
+   Generated File[PMW3389_Rev1.TXT]
+   Generated File[PMW3389_Rev1.LDP]
+   Generated File[PMW3389_Rev1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:00:25 On 16.03.2021
