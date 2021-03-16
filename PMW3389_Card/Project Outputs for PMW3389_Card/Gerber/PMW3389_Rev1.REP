@@ -2,20 +2,38 @@
 FileName = PMW3389_Rev1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : PMW3389_Rev1.GBO
+Generating : Top Paste
+      File : PMW3389_Rev1.GTP
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : PMW3389_Rev1.GBS
+Generating : Top Overlay
+      File : PMW3389_Rev1.GTO
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PMW3389_Rev1.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -23,6 +41,52 @@ Generating : Bottom Solder
 
 
 Used DCodes :
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : PMW3389_Rev1.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PMW3389_Rev1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
     D21
     D22
     D23
@@ -30,14 +94,13 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Keep-Out Layer
-      File : PMW3389_Rev1.GKO
+Generating : Bottom Overlay
+      File : PMW3389_Rev1.GBO
 
-    Adding Layer      : Keep-Out Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D30
 *************************************************************
 
 *************************************************************
@@ -67,8 +130,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : PMW3389_Rev1.GBL
+Generating : Bottom Solder
+      File : PMW3389_Rev1.GBS
+
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Bottom Layer
 
@@ -76,49 +141,6 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D25
-    D26
-    D27
-    D28
-    D29
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : PMW3389_Rev1.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : PMW3389_Rev1.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D17
-    D18
-    D19
-    D20
     D21
     D22
     D23
@@ -126,35 +148,13 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : PMW3389_Rev1.GTO
+Generating : Keep-Out Layer
+      File : PMW3389_Rev1.GKO
 
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : PMW3389_Rev1.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D25
-    D26
-    D27
-    D28
-    D29
+    D30
 *************************************************************
 
