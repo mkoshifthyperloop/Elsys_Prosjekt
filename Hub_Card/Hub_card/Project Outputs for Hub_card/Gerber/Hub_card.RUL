@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Users\dvorh\Documents\CODE\Elsys_Prosjekt\Hub_Card\Hub_card\Hub_card.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRingInner|Scope=Board|Minimum=7.87
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRingOuter|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=TraceWidthInner|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=TraceWidthOuter|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=ClearanceInner|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=ClearanceOuter|Scope=Board|Minimum=7.87

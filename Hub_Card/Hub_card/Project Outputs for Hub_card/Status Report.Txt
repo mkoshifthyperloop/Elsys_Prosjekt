@@ -1,0 +1,26 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:23:23 On 16.03.2021
+
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Hub_card.PcbDoc]
+   Generated File[Hub_card.GTO]
+   Generated File[Hub_card.GTP]
+   Generated File[Hub_card.GTS]
+   Generated File[Hub_card.GTL]
+   Generated File[Hub_card.GBL]
+   Generated File[Hub_card.GBS]
+   Generated File[Hub_card.GBP]
+   Generated File[Hub_card.GBO]
+   Generated File[Hub_card.GM1]
+   Generated File[Hub_card.GKO]
+   Generated File[Hub_card.RUL]
+   Generated File[Hub_card.EXTREP]
+   Generated File[Hub_card.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 13:23:23 On 16.03.2021
