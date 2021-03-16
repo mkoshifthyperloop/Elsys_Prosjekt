@@ -2,100 +2,17 @@
 FileName = Hub_card.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Paste
-      File : Hub_card.GBP
+Generating : Top Overlay
+      File : Hub_card.GTO
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Hub_card.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
+    D10
+    D11
     D12
-    D42
-    D43
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : Hub_card.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D44
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : Hub_card.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Hub_card.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D19
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : Hub_card.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
+    D13
 *************************************************************
 
 *************************************************************
@@ -124,20 +41,6 @@ Used DCodes :
     D39
     D40
     D41
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Hub_card.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
 *************************************************************
 
 *************************************************************
@@ -177,5 +80,102 @@ Used DCodes :
     D16
     D17
     D18
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Hub_card.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Hub_card.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Hub_card.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Hub_card.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Hub_card.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Hub_card.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D12
+    D42
+    D43
 *************************************************************
 
