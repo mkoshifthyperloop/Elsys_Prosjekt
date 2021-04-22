@@ -453,8 +453,8 @@ void GetData(){
   if (PMW){
     UpdatePointer();
    
-    dCoordinate.x = xydat[0]*cos(DEG_TO_RAD*(rot - startHeading))+xydat[1]*sin(DEG_TO_RAD*(rot - startHeading));
-    dCoordinate.y = xydat[1]*cos(DEG_TO_RAD*(rot - startHeading))-xydat[0]*sin(DEG_TO_RAD*(rot - startHeading));
+    dCoordinate.x = xydat[0]*cos(-DEG_TO_RAD*(rot - startHeading))+xydat[1]*sin(-DEG_TO_RAD*(rot - startHeading));
+    dCoordinate.y = xydat[1]*cos(-DEG_TO_RAD*(rot - startHeading))-xydat[0]*sin(-DEG_TO_RAD*(rot - startHeading));
 
     coordinate.x = coordinate.x + dCoordinate.x; //Les og prosseser x-data
     coordinate.y = coordinate.y + dCoordinate.y; //Les og prosseser y-data
