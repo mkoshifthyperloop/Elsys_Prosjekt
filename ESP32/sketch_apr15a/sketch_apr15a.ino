@@ -409,10 +409,8 @@ void setup() {
 }
 
 void loop() { //Real one
-  unsigned long Time = micros();
-
-  GetData();
-  while (micros() < Time + SampleDelay){}
+  unsigned long Time = micros();  
+  
   if (active){
    
     GetData();
@@ -423,8 +421,8 @@ void loop() { //Real one
     }
     
     //delay(1);
-      
-    
+
+    while (micros() < Time + SampleDelay){}    
 
     //PostData();
     
