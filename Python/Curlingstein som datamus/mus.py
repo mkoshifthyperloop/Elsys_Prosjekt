@@ -12,17 +12,20 @@ sensitivity = 40
 coordinates = [500 * sensitivity, 500 * sensitivity]
 
 def main():
-    
+    crashes = 0
     while keyboard.is_pressed("q") == False:
         data = arduino.readline()
-        data = data.decode("utf-8")
-        data = data.split(",")
-        #print(data)
-        coordinates[0] = int(round(float(data[0]))) #+ coordinates[0]
-        coordinates[1] = int(round(float(data[1]))) #+ coordinates[1]
-        print(coordinates)
         
-        win32api.SetCursorPos((int(round(coordinates[0]/sensitivity)), int(round(coordinates[1])/sensitivity)))
+        try:
+            data = data.decode("utf-8")
+            data = data.split(",")
+            coordinates[0] = int(round(float(data[0]))) #+ coordinates[0]
+            coordinates[1] = int(round(float(data[1]))) #+ coordinates[1]
+            print(coordinates)
+            win32api.SetCursorPos((int(round(coordinates[0]/sensitivity)), int(round(coordinates[1])/sensitivity)))
+        except:
+            crashes += 1
+            print(crashes)
         #print("kattepus")
     return
 
