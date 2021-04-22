@@ -345,6 +345,7 @@ const unsigned char firmware_data[] PROGMEM = {
 
 bool performStartup(void);
 void GetData();
+void startServer();
 
 typedef struct {
   float x;
@@ -372,7 +373,7 @@ byte testctr=0;
 unsigned long currTime;
 unsigned long timer;
 unsigned long pollTimer;
-bool active = false;
+bool active = true;
 #define SampleDelay 10000 //Micro seconds
 int cnt = 1;
 float startHeading;
@@ -392,8 +393,7 @@ void setup() {
   
   Serial.begin(2000000);
 
-  startServer();
-  Serial.println(IP);
+  
 
   if(!IMU.begin()){
     Serial.println("BNO055 failed");
@@ -414,35 +414,27 @@ void setup() {
 
 void loop() { //Real one
 
-  if (!serverActive && !active){
-    server.begin();
-    Serial.println("Server On");
-    serverActive = true;  
-  }
-  
-  if (active){
-    if (serverActive){
-      server.end();
-      Serial.println("Server OFF");
-      serverActive = false;
-    }
-   
+  while (active) 
+  {
     GetData();
-    
-    if (cnt >= 999){
+
+    cnt++;
+    Serial.print(cnt);
+    if (cnt >= 99){
       cnt = 0;
       active = false;
       
     }
-    
-    //delay(1);
-
     while (micros() < Time + SampleDelay){}    
     Time = Time + SampleDelay;
+  }
 
-    //PostData();
-    
-    }
+  delay(2000);
+
+  startServer();
+  Serial.println(IP);
+
+  
 }
 
 void GetData(){
