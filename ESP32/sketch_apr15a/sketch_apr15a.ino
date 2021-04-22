@@ -372,14 +372,17 @@ byte testctr=0;
 unsigned long currTime;
 unsigned long timer;
 unsigned long pollTimer;
-bool active = true;
+bool active = false;
 #define SampleDelay 10000 //Micro seconds
 int cnt = 1;
 float startHeading;
 
+unsigned long Time;
+bool serverActive = false;
+
 //Data
-double x[1000] = {0};
-double y[1000] = {0};
+double x[3000] = {0};
+double y[3000] = {0};
 double Heading[1000] = {0};
 
 coordinate_t coordinate;
@@ -389,8 +392,8 @@ void setup() {
   
   Serial.begin(2000000);
 
-  //startServer();
-  //Serial.println(IP);
+  startServer();
+  Serial.println(IP);
 
   if(!IMU.begin()){
     Serial.println("BNO055 failed");
@@ -405,24 +408,37 @@ void setup() {
   } else {
      Serial.println("PMW initialization failed");
   }  
-  
+
+  Time = micros();
 }
 
 void loop() { //Real one
-  unsigned long Time = micros();  
+
+  if (!serverActive && !active){
+    server.begin();
+    Serial.println("Server On");
+    serverActive = true;  
+  }
   
   if (active){
+    if (serverActive){
+      server.end();
+      Serial.println("Server OFF");
+      serverActive = false;
+    }
    
     GetData();
     
     if (cnt >= 999){
       cnt = 0;
-      //active = true;
+      active = false;
+      
     }
     
     //delay(1);
 
     while (micros() < Time + SampleDelay){}    
+    Time = Time + SampleDelay;
 
     //PostData();
     
@@ -507,6 +523,7 @@ void startServer(){
 
   //Start
   server.begin();
+  serverActive = true;
 }
 
 void notFound(AsyncWebServerRequest *request){
