@@ -459,9 +459,9 @@ void GetData(){
     coordinate.x = coordinate.x + dCoordinate.x; //Les og prosseser x-data
     coordinate.y = coordinate.y + dCoordinate.y; //Les og prosseser y-data
     
-    Serial.print(dCoordinate.x);
+    Serial.print(coordinate.x);
     Serial.print(",");
-    Serial.println(dCoordinate.y);
+    Serial.println(coordinate.y);
   }
   
   cnt++;
