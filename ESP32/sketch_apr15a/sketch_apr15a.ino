@@ -373,7 +373,7 @@ unsigned long currTime;
 unsigned long timer;
 unsigned long pollTimer;
 bool active = true;
-#define SampleDelay 4000 //Micro seconds
+#define SampleDelay 10000 //Micro seconds
 int cnt = 1;
 float startHeading;
 
