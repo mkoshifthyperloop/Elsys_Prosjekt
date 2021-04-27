@@ -347,8 +347,8 @@ bool performStartup(void);
 void GetData();
 
 typedef struct {
-  float x;
-  float y;
+  double x;
+  double y;
   //float angle;
 } coordinate_t;
 
@@ -398,6 +398,9 @@ void setup() {
     Serial.println("BNO055 connected");
     BNO = true;  
   }
+
+  imu::Vector<3> euler = IMU.getVector(Adafruit_BNO055::VECTOR_EULER);
+  startHeading = euler.x();
   
   if (performStartup()){
      Serial.println("PMW initialization was successful");
@@ -453,9 +456,9 @@ void GetData(){
    
     dCoordinate.x = xydat[0]*cos(-DEG_TO_RAD*(rot - startHeading))+xydat[1]*sin(-DEG_TO_RAD*(rot - startHeading));
     dCoordinate.y = xydat[1]*cos(-DEG_TO_RAD*(rot - startHeading))-xydat[0]*sin(-DEG_TO_RAD*(rot - startHeading));
-
-    coordinate.x = coordinate.x + dCoordinate.x; //Les og prosseser x-data
-    coordinate.y = coordinate.y + dCoordinate.y; //Les og prosseser y-data
+  
+    coordinate.x = coordinate.x + dCoordinate.x/6300; //Les og prosseser x-data
+    coordinate.y = coordinate.y + dCoordinate.y/6300; //Les og prosseser y-data
     
     Serial.print(coordinate.x);
     Serial.print(",");
