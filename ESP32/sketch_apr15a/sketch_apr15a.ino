@@ -442,7 +442,7 @@ void GetData(){
     //IMU.getCalibration(&system, &gyro, &accel, &mag);
     
     imu::Vector<3> euler = IMU.getVector(Adafruit_BNO055::VECTOR_EULER);
-    rot = euler.x();
+    rot = -DEG_TO_RAD*(euler.x() - startHeading);
     Heading[cnt] = rot; //Legg til dataen i vector;
     
     /*euler = IMU.getVector(Adafruit_BNO055::VECTOR_LINEARACCEL).x();
@@ -455,8 +455,8 @@ void GetData(){
   if (PMW){
     UpdatePointer();
    
-    dCoordinate.x = xydat[0]*cos(-DEG_TO_RAD*(rot - startHeading))+xydat[1]*sin(-DEG_TO_RAD*(rot - startHeading));
-    dCoordinate.y = xydat[1]*cos(-DEG_TO_RAD*(rot - startHeading))-xydat[0]*sin(-DEG_TO_RAD*(rot - startHeading));
+    dCoordinate.x = xydat[0]*cos(rot)+xydat[1]*sin(rot);
+    dCoordinate.y = xydat[1]*cos(rot)-xydat[0]*sin(rot);
   
     coordinate.x = coordinate.x - dCoordinate.x/6300; //Les og prosseser x-data
     coordinate.y = coordinate.y + dCoordinate.y/6300; //Les og prosseser y-data
